@@ -1,0 +1,24 @@
+.wrapper-cart {
+  height: calc(100vh);
+  background-image: linear-gradient(to right, #d434b0, #8029fc);
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.form-control label {
+  font-weight: 600;
+}
+.form-control input {
+  width: -webkit-fill-available;
+  border: none;
+  outline: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background: #e2e2e2;
+  font-style: normal;
+  font-family: "Montserrat", serif; /* Đúng tên font */
+  font-optical-sizing: auto;
+}

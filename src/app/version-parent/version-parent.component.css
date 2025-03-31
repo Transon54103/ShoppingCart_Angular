@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; Căn giữa theo chiều dọc */
+  align-items: center; /* Căn giữa theo chiều ngang */
+  /* text-align: center; */
+}

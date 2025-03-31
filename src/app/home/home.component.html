@@ -1,7 +1,12 @@
-<main class="main">
-  <header-layout />
-  <!-- <app-version-parent></app-version-parent> -->
-  <!-- <div class="nutxinchao">
+<div class="wrapper-cart">
+  <h1>GIỎ HÀNG</h1>
+  <app-product-item
+    [product]="product"
+    (dataEvent)="handlDelete($event)"
+  ></app-product-item>
+</div>
+<!-- <app-version-parent></app-version-parent> -->
+<!-- <div class="nutxinchao">
     <button [disabled]="disable" (click)="bam()">
       {{ loichao }} Click Me {{ count }}!
     </button>
@@ -12,5 +17,3 @@
   </div>
   <input type="text" [(ngModel)]="mess" />
   <div>{{ mess }}</div> -->
-  <router-outlet />
-</main>

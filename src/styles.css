@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 3rem 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.main {
+  font-style: normal;
+  font-family: "Montserrat", serif; /* Đúng tên font */
+  font-optical-sizing: auto;
+}
+.btn-main {
+  background-image: linear-gradient(to right, #d434b0, #8029fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+.btn-navigation {
+  background-image: linear-gradient(to right, #d434b0, #8029fc);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+}

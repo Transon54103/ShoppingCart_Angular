@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.wrapper-cart {
+  height: calc(100vh);
+  background-image: linear-gradient(to right, #d434b0, #8029fc);
+}
+.group-cart {
+  background-color: #fff;
+  width: 75%;
+  padding: 32px;
+  margin: auto;
+  border-radius: 6px;
+}
+.Header-cart {
+  display: flex;
+  background-color: #e2e2e2;
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 1.5;
+}
+.col-3 {
+  flex: 1;
+}
+.col-4 {
+  flex: 0.5;
+}
+.body-cart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  row-gap: 1rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.row .col-1 {
+  display: flex;
+  justify-content: space-around; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
